@@ -1,105 +1,115 @@
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+    margin: 0%;
+    padding: 0%;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
 }
 
-/* Main styles */
-
-.main {
+/* container */
+.container {
     display: flex;
     flex-direction: row-reverse;
-    margin: 0px;
-    width: 1200px;
+    width: 1240px;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.main-content {
-    background-color: #fff;
-    box-shadow: 6px 6px 20px; color: rgba(0, 0, 0, 1);
-    padding: 105px 90px;
-}
-
-/* about styles */
-
-.about {
+/* about-user */
+.about-user {
     margin-bottom: 40px;
 }
 
-.about-position {
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 17px;
-color: #000000;
-margin-bottom: 20px
+.about-user__position {
+    font-weight: 700;
+    line-height: 17px;
+
+    margin-bottom: 20px;
+
+    color: #000000;
 }
 
-.about-name {
-font-style: normal;
-font-weight: 700;
-font-size: 45px;
-line-height: 55px;
-color: #000000;
-margin-bottom: 25px;
+.about-user__name {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
 
+    margin-bottom: 25px;
+
+    color: #000000;
 }
 
-.title {
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 27px;
-color: #000000;
-margin-bottom: 10px;
-}
-
-/* Work styles */
-
+/* work */
 .work {
-margin-bottom: 45px;
+    margin-bottom: 45px;
 }
+.work__title {
+    
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
 
-.work-position {
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-color: #000000;
-margin-bottom: 10px;
+    margin-bottom: 10px;
+
+    color: #000000;
 }
-
-.organization {
-    font-style: normal;
+.work__position {
+    
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
+
+    margin-bottom: 10px;
+
+    color: #000000;
+}
+
+.work__organization {
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
     color: #FB6D3A;    
 }
 
-.period {
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 15px;
-color: #A8A8A8;
-margin-bottom: 10px;
+.work__period {
+    font-size: 12px;
+    line-height: 15px;
+
+    margin-bottom: 10px;
+
+    color: #A8A8A8;
 }
 
-.work-list {
-padding-left: 0;
-margin-left: 15px;
+.work__list {
+    padding-left: 0;
+    margin-left: 15px;
 }
 
-.work-list-item {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
+.work__item {
     line-height: 24px;
     color: #595959;
 }
 
-/* Education styles */
+/* Education */
 
-.university {
-    font-style: normal;
+.education__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #000000;
+}
+.education__university {
     font-weight: 700;
     font-size: 16px;
     margin: 0 0 10px 0;
@@ -107,98 +117,113 @@ margin-left: 15px;
     margin-bottom: 10px;
  }
 
- .department {
-    font-style: normal;
+ .education__department {
+    
     font-weight: 700;
-    font-size: 14px;
+    
     margin: 0 0 10px 0;
     color: #000000;
     margin-bottom: 10px;
-     }
+}
 
      /* Sidebar styles */
 
-     .sidebar {
-        background-color: #1E2939;
-        padding-top: 40px;
-        width: 370px;
-        margin-right: 50px;
-    }
+.sidebar {
+    background-color: #1E2939;
+    padding-top: 40px;
+    margin-right: 88px;
+    width: 370px;
+    
+   
+}
+.sidebar-box {
+    padding: 40px;
+}
+.address {
+    font-style: normal;
 
-    .photo {
-        width: 370px;
-        margin-bottom: 50px;
-        }
+    margin-bottom: 44px;
+}
+.tech-skills,
+.soft-skills,
+.language-skills,
+.other-skills {
+    margin-bottom: 44px;
+}
+.address__title,
+.tech-skills__title,
+.soft-skills__title,
+.language-skills__title,
+.other-skills__title {
+    
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
 
-        .contacts, 
-        .tech-skills,
-        .soft-skills,
-        .language-skills,
-        .other-skills {
-         margin-left: 40px;
-        }  
+    
+    margin-bottom: 8px;
 
-        .contacts {
-        margin-bottom: 50px;
-         } 
+    color: #FFFFFF;
+}
+.address__list {
+    margin-bottom: 8px;
+    list-style: none;
+}
+.address__inner {
+    
+    font-weight: 700;
+    
+    line-height: 24px;
+    color: #FFFFFF; 
+}
 
-        .sidebar-title {
-        color: #FFFFFF;    
-        font-style: normal;
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 27px;
-        margin-bottom: 10px;
-         }
+.address__link {
+    
+    
+    
+    line-height: 24px;
+    color: #BCBCCD; 
+    opacity: 0.5;
+}
+.address__link--current {
+    text-decoration: none;
+}
 
-        .contact-type {
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 24px;
-        color: #FFFFFF; 
-              }
+.address__social {
+    color: rgb(51, 26, 192);
+}
 
-        .contact-link {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        color: #cdbcbc; 
-        }
 
-        .facebook {
-        color: rgb(51, 26, 192);
-        }
 
-        .tech-skills-list,
-        .soft-skills-list,
-        .language-skills-list,
-        .other-skills-list {
-        color: #FFFFFF;  
-        padding: 0%;  
-        margin-left: 17px;
-         } 
+
+
+.tech-skills__list,
+.soft-skills__list,
+.language-skills__list,
+.other-skills__list {
+    color: #FFFFFF;  
+    padding-left: 17px;
+} 
         
-         .tech-skills-item,
-        .soft-skills-item,
-        .language-skills-item,
-        .other-skills-item
-         {
-        color: #FB6D3A;    
-        }
+.tech-skills__item,
+.soft-skills__item,
+.language-skills__item,
+.other-skills__item
+{
+    color: #FB6D3A;    
+}
 
-        .tech-skills-text,
-        .soft-skills-text, 
-        .address-text,
-        .birth-text,
-        .language-skills-text,
-        .other-skills-text
-         {
-        color: #FFFFFF;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        }
+.tech-skills-text,
+.soft-skills-text, 
+.address-text,
+.birth-text,
+.language-skills-text,
+.other-skills-text
+{
+    color: #FFFFFF;
+    
+    
+    
+    line-height: 24px;
+}
 
