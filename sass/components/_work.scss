@@ -1,0 +1,52 @@
+.work {
+    padding: 25px 0;
+}
+
+.work__title {
+
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.08;
+
+    margin-bottom: 15px;
+
+    color: var(--primery-color);
+}
+
+.work__position {
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.11;
+
+    margin-bottom: 10px;
+
+    color: var(--primery-color);
+}
+
+.work__organization {
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11;
+
+    color: var(--red);
+}
+
+.work__period {
+    line-height: 1.07;
+
+    margin-bottom: 10px;
+
+    color: #A8A8A8;
+}
+
+.work__list {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.work__item {
+    line-height: 1.71;
+    color: #595959;
+}

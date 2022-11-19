@@ -1,0 +1,45 @@
+.tech-skills,
+.soft-skills,
+.language-skills,
+.other-skills {
+    margin-bottom: 44px;
+}
+
+.tech-skills__title,
+.soft-skills__title,
+.language-skills__title,
+.other-skills__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+
+    margin-bottom: 8px;
+
+    color: var(--secondary-color);
+}
+
+
+
+.tech-skills__list,
+.soft-skills__list,
+.language-skills__list,
+.other-skills__list {
+    color: var(--secondary-color);
+    padding-left: 17px;
+}
+
+.tech-skills__item,
+.soft-skills__item,
+.language-skills__item,
+.other-skills__item {
+    color: var(--red);
+}
+
+.tech-skills__text,
+.soft-skills__text,
+.language-skills__text,
+.other-skills__text {
+    color: var(--secondary-color);
+
+    line-height: 24px;
+}

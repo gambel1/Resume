@@ -1,0 +1,48 @@
+.address {
+    font-style: normal;
+
+    margin-bottom: 44px;
+}
+
+.address__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+
+    margin-bottom: 8px;
+
+    color: var(--secondary-color);
+}
+
+.address__list {
+    margin-bottom: 8px;
+    list-style: none;
+}
+
+.address__inner {
+    font-weight: 700;
+
+    line-height: 24px;
+    color: var(--secondary-color);
+}
+
+.address__link {
+    line-height: 24px;
+    color: #BCBCCD;
+    opacity: 0.5;
+}
+
+.address__link--current {
+    text-decoration: none;
+}
+
+.address__social {
+    color: rgb(51, 26, 192);
+}
+
+.address__text {
+    color: var(--secondary-color);
+    
+    line-height: 24px;
+}
+
