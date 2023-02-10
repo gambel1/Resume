@@ -14,7 +14,7 @@
 
 .education__university {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
 
     margin-bottom: 10px;
 
@@ -23,9 +23,21 @@
 
 .education__department {
     font-weight: 700;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.71;
     margin-bottom: 10px;
 
     color: var(--primery-color);
+}
+
+.education__period {
+    line-height: 1.71;
+    margin-bottom: 10px;
+
+    color: #a8a8a8;
+}
+.education__item {
+    line-height: 1.71;
+
+    color: var(--grey);
 }

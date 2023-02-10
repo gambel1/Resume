@@ -1,216 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>Resume Albina</title>
-</head>
-<body>
-       
+  </head>
+  <body>
     <!-- About user -->
-<div class="container">
-<main>
+    <div class="container">
+      <main data-aos="fade-left"
+      data-aos-duration="2000">
+        <section class="about-user">
+          <b class="about-user__position"> Онлайн-консультант </b>
+          <h1 class="about-user__name">Потапенко Альбіна</h1>
+        </section>
 
-    <section class="about-user">
-            <b class="about-user__position">
-            Онлайн-консультант
-            </b>
-            <h1 class="about-user__name">
-                Потапенко Альбіна
-            </h1>
-    </section>
-
-    <!-- Work -->
-    <section class="work">
-                <h2 class="work__title">
-                 Трудова діяльність
-                </h2>
-            <!-- Company 1 -->
-            <div>
-                <h3 class="work__position">
-                    <span class="work__organization">Слідчий</span>
-                </h3>
-                <p class="work__period">
-                    22/07/2013 | 22/09/2014
-                </p>
-                <ul class="work__list">
-                    <li class="work__item">22.07.2013 прийнята на службу на посаду слідчого  до СВ Сумського МВ УМВС України в Сумській області.</li>
-                    <li class="work__item">22.09.2014 звільнена з ОВС за власним бажанням.</li> 
-                </ul>
-            </div>
-            <!-- Company 2 -->
-            <div>
-                <h3 class="work__position">
-                    Промоутер <span class="work__organization">з продажу побутової техніки</span> 
-                </h3>
-                <p class="work__period">
-                    2014 | 2020 рр.
-                </p>
-                <ul class="work__list">
-                    <li class="work__item">
-                        З 2014 промоутер компаній з продажу побутової техніки (працювала неофіційно)
-                    </li>
-                    <li class="work__item">
-                        В 2020 р. звільнилась з посади за властим бажанням
-                    </li>
-                </ul>
-            </div>
-            <!-- Company 3 -->
-            <div>
-                <h3 class="work__position">
-                    Онлайн - <span class="work__organization">консультант</span> 
-                </h3>
-                <p class="work__period">
-                    01/06/2017 | до тепер
-                </p>
-                <ul class="work__list">
-                    <li class="work__item">
-                        01.06.2017 р. прийнята на посаду Онлайн-консультанта  
-                    </li>
-                    <li class="work__item">
-                        Тут зараз и працюю
-                    </li>                 
-                </ul>
-            </div>
-    </section>
-
-            <!-- Education -->
-    <section class="education">
-            <h2 class="education__title">Освіта 
-            </h2>
-            <h3 class="education__university">
-                Національний університет ім. Ярослава Мудрого. 
+        <!-- Work -->
+        <section class="work">
+          <h2 class="work__title">Трудова діяльність</h2>
+          <!-- Company 1 -->
+          <div>
+            <h3 class="work__position">
+              <span class="work__organization">Слідчий</span>
             </h3>
-            <h4 class="education__department">
-                Інститут підготовки слідчих кадрів для МВС України, денна форма навчання
-            </h4>
-            <p class="education__period">
-                2008 - 2013 рр.
-            </p>
-            <ul class="education__list">
-                <li class="education__item">
-                    2008-2012 рр...........Бакалавр права
-                </li>
-                <li class="education__item">
-                    2013 р............................Магістр права
-                </li>
+            <p class="work__period">22/07/2013 | 22/09/2014</p>
+            <ul class="work__list">
+              <li class="work__item">
+                22.07.2013 прийнята на службу на посаду слідчого до СВ Сумського
+                МВ УМВС України в Сумській області.
+              </li>
+              <li class="work__item">
+                22.09.2014 звільнена з ОВС за власним бажанням.
+              </li>
             </ul>
-    </section>
+          </div>
+          <!-- Company 2 -->
+          <div>
+            <h3 class="work__position">
+              Промоутер
+              <span class="work__organization"
+                >з продажу побутової техніки</span
+              >
+            </h3>
+            <p class="work__period">2014 | 2020 рр.</p>
+            <ul class="work__list">
+              <li class="work__item">
+                З 2014 промоутер компаній з продажу побутової техніки (працювала
+                неофіційно)
+              </li>
+              <li class="work__item">
+                В 2020 р. звільнилась з посади за властим бажанням
+              </li>
+            </ul>
+          </div>
+          <!-- Company 3 -->
+          <div>
+            <h3 class="work__position">
+              Онлайн - <span class="work__organization">консультант</span>
+            </h3>
+            <p class="work__period">01/06/2017 | до тепер</p>
+            <ul class="work__list">
+              <li class="work__item">
+                01.06.2017 р. прийнята на посаду Онлайн-консультанта
+              </li>
+              <li class="work__item">Тут зараз и працюю</li>
+            </ul>
+          </div>
+        </section>
 
-
-</main>
-
-
-    <!-- Sidebar -->
-<aside class="sidebar">
-        
-        <img class="sidebar__photo" src="IMG_9881.JPG" alt="Картинка не отображается" width="370">
-    
-<div class="sidebar__box">
-  
-    <address class="address">
-        <h2 class="address__title">
-            Контактна інформація
-        </h2>
-        <ul class="address__list">
-            <li>
-                <span class="address__inner">
-                    Т:
-                </span>
-                <a href="tel:+3800960281212" class="address__link address__link--current">096 028 12 12</a>
+        <!-- Education -->
+        <section class="education">
+          <h2 class="education__title">Освіта</h2>
+          <h3 class="education__university">
+            Національний університет ім. Ярослава Мудрого.
+          </h3>
+          <h4 class="education__department">
+            Інститут підготовки слідчих кадрів для МВС України, денна форма
+            навчання
+          </h4>
+          <p class="education__period">2008 | 2013 рр.</p>
+          <ul class="education__list">
+            <li class="education__item">
+              2008-2012 рр...........Бакалавр права
             </li>
-            <li>
-                <span class="address__inner">
-                    E:
-                </span>
-                <a href="mailto:albinka240491@ukr.net" class="address__link">albinka240491@ukr.net</a>
+            <li class="education__item">
+              2013 р............................Магістр права
             </li>
-            <li>
-                <span class="address__inner">
-                    F:
-                </span>
-                <a href="https://www.facebook.com/profile.php?id=100004628523467" class="address__social">Facebook</a>
-            </li>
-        </ul>
-    
-            <p class="address__text">
-                м. Київ вул. М. Донця 5
-            </p>
+          </ul>
+        </section>
+      </main>
 
-            <p class="address__text">
-                24/04/1991
-            </p>
-    </address>
-    
+      <!-- Sidebar -->
+      <aside data-aos="fade-right"
+      data-aos-duration="2000" class="sidebar">
+        <img data-aos="flip-up"
+        data-aos-duration="2000"
+          class="sidebar__photo"
+          src="IMG_9881.JPG"
+          alt="Картинка не отображается"
+          width="370"
+        />
 
-<!-- Тех. Качества -->
-    <section class="tech-skills">
-        <h1 class="tech-skills__title">
-            Професійні якості та навички
-        </h1>
-        <ul class="tech-skills__list">
-            <li class="tech-skills__item"> <span class="tech-skills__text">Володію базовими знаннями з основних галузей права</span></li>
-            <li class="tech-skills__item"> <span class="tech-skills__text">Наявний досвід складання процесуальних документів</span></li>
-            <li class="tech-skills__item"> <span class="tech-skills__text">Windows, MS Office, Internet – досвідчений користувач</span></li>
-            <li class="tech-skills__item"> <span class="tech-skills__text">Вмію аналізувати та логічно мислити</span></li>
-            <li class="tech-skills__item"> <span class="tech-skills__text">Уважна до деталей</span></li>
-            <li class="tech-skills__item"> <span class="tech-skills__text">Володію організаторськими здібностями</span></li>
-            <li class="tech-skills__item"> <span class="tech-skills__text">Легко адаптуюсь до нових умов</span></li>
-            <li class="tech-skills__item"> <span class="tech-skills__text">Швидко засвоюю нову інформацію</span></li>
-            <li class="tech-skills__item"> <span class="tech-skills__text">Здатна самостійно приймати рішення</span></li>
-        </ul>
-    </section>
+        <div class="sidebar__box">
+          <address class="address">
+            <h2 class="address__title">Контактна інформація</h2>
+            <ul class="address__list">
+              <li>
+                <span class="address__inner"> Т: </span>
+                <a
+                  href="tel:+3800960281212"
+                  class="address__link address__link--current"
+                  >096 028 12 12</a
+                >
+              </li>
+              <li>
+                <span class="address__inner"> E: </span>
+                <a href="mailto:albinka240491@ukr.net" class="address__link"
+                  >albinka240491@ukr.net</a
+                >
+              </li>
+              <li>
+                <span class="address__inner"> F: </span>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100004628523467"
+                  class="address__social"
+                  >Facebook</a
+                >
+              </li>
+            </ul>
 
-<!-- Особенные качества -->
-    <section class="soft-skills">   
-        <h2 class="soft-skills__title">
-            Особисті якості
-        </h2>
-        <ul class="soft-skills__list">
-            <li class="soft-skills__item"> <span class="soft-skills__text">Характер спокійний, урівноважений</span></li>
-            <li class="soft-skills__item"> <span class="soft-skills__text">Доброзичлива</span></li>
-            <li class="soft-skills__item"> <span class="soft-skills__text">Комунікабельна</span></li>
-            <li class="soft-skills__item"> <span class="soft-skills__text">Цілеспрямована</span></li>
-            <li class="soft-skills__item"> <span class="soft-skills__text">Відповідальна</span></li>
-            <li class="soft-skills__item"> <span class="soft-skills__text">Старанна</span></li>
-            <li class="soft-skills__item"> <span class="soft-skills__text">Уважна</span></li>
-            <li class="soft-skills__item"> <span class="soft-skills__text">Пунктуальна</span></li>
-        </ul>
-    </section>
+            <p class="address__text">м. Київ вул. М. Донця 5</p>
 
-    <!-- Языки -->
-    <section class="language-skills">
-        <h2 class="language-skills__title">
-            Знання мов
-        </h2>
-        <ul class="language-skills__list">
-            <li class="language-skills__item"> <span class="language-skills__text">Рідна мова – українська</span></li>
-            <li class="language-skills__item"> <span class="language-skills__text">Вільно володію російською мовою</span></li>
-        </ul>
-    </section>
+            <p class="address__text">24/04/1991</p>
+          </address>
 
-<!-- Другое -->
-    <section class="other-skills">
-        <h2 class="other-skills__title">
-        Інше
-        </h2>
-        <ul class="other-skills__list">
-            <li class="other-skills__item"> <span class="other-skills__text">Шкідливих звичок не маю</span></li>
-            <li class="other-skills__item"> <span class="other-skills__text">Заміжня</span></li>
-            <li class="other-skills__item"> <span class="other-skills__text">Хоббі – музика, вишивка</span></li>
-            <li class="other-skills__item"> <span class="other-skills__text">Маю водійське посвідчення (категорія В), володію автомобілем</span></li>
-        </ul>
-    </section>    
-</div>
+          <!-- Тех. Качества -->
+          <section class="tech-skills">
+            <h1 class="tech-skills__title">Професійні якості та навички</h1>
+            <ul class="tech-skills__list">
+              <li class="tech-skills__item">
+                <span class="tech-skills__text"
+                  >Володію базовими знаннями з основних галузей права</span
+                >
+              </li>
+              <li class="tech-skills__item">
+                <span class="tech-skills__text"
+                  >Наявний досвід складання процесуальних документів</span
+                >
+              </li>
+              <li class="tech-skills__item">
+                <span class="tech-skills__text"
+                  >Windows, MS Office, Internet – досвідчений користувач</span
+                >
+              </li>
+              <li class="tech-skills__item">
+                <span class="tech-skills__text"
+                  >Вмію аналізувати та логічно мислити</span
+                >
+              </li>
+              <li class="tech-skills__item">
+                <span class="tech-skills__text">Уважна до деталей</span>
+              </li>
+              <li class="tech-skills__item">
+                <span class="tech-skills__text"
+                  >Володію організаторськими здібностями</span
+                >
+              </li>
+              <li class="tech-skills__item">
+                <span class="tech-skills__text"
+                  >Легко адаптуюсь до нових умов</span
+                >
+              </li>
+              <li class="tech-skills__item">
+                <span class="tech-skills__text"
+                  >Швидко засвоюю нову інформацію</span
+                >
+              </li>
+              <li class="tech-skills__item">
+                <span class="tech-skills__text"
+                  >Здатна самостійно приймати рішення</span
+                >
+              </li>
+            </ul>
+          </section>
 
-</aside>
-</div>
+          <!-- Особенные качества -->
+          <section class="soft-skills">
+            <h2 class="soft-skills__title">Особисті якості</h2>
+            <ul class="soft-skills__list">
+              <li class="soft-skills__item">
+                <span class="soft-skills__text"
+                  >Характер спокійний, урівноважений</span
+                >
+              </li>
+              <li class="soft-skills__item">
+                <span class="soft-skills__text">Доброзичлива</span>
+              </li>
+              <li class="soft-skills__item">
+                <span class="soft-skills__text">Комунікабельна</span>
+              </li>
+              <li class="soft-skills__item">
+                <span class="soft-skills__text">Цілеспрямована</span>
+              </li>
+              <li class="soft-skills__item">
+                <span class="soft-skills__text">Відповідальна</span>
+              </li>
+              <li class="soft-skills__item">
+                <span class="soft-skills__text">Старанна</span>
+              </li>
+              <li class="soft-skills__item">
+                <span class="soft-skills__text">Уважна</span>
+              </li>
+              <li class="soft-skills__item">
+                <span class="soft-skills__text">Пунктуальна</span>
+              </li>
+            </ul>
+          </section>
 
-</body>
+          <!-- Языки -->
+          <section class="language-skills">
+            <h2 class="language-skills__title">Знання мов</h2>
+            <ul class="language-skills__list">
+              <li class="language-skills__item">
+                <span class="language-skills__text"
+                  >Рідна мова – українська</span
+                >
+              </li>
+              <li class="language-skills__item">
+                <span class="language-skills__text"
+                  >Вільно володію російською мовою</span
+                >
+              </li>
+            </ul>
+          </section>
+
+          <!-- Другое -->
+          <section class="other-skills">
+            <h2 class="other-skills__title">Інше</h2>
+            <ul class="other-skills__list">
+              <li class="other-skills__item">
+                <span class="other-skills__text">Шкідливих звичок не маю</span>
+              </li>
+              <li class="other-skills__item">
+                <span class="other-skills__text">Заміжня</span>
+              </li>
+              <li class="other-skills__item">
+                <span class="other-skills__text">Хоббі – музика, вишивка</span>
+              </li>
+              <li class="other-skills__item">
+                <span class="other-skills__text"
+                  >Маю водійське посвідчення (категорія В), володію
+                  автомобілем</span
+                >
+              </li>
+            </ul>
+          </section>
+        </div>
+      </aside>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/index.js" type="module"></script>
+  </body>
 </html>

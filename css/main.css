@@ -3,6 +3,7 @@
   --primery-color: #000000;
   --secondary-color: #ffffff;
   --red: #FB6D3A;
+  --grey: #595959;
 }
 
 h1,
@@ -107,17 +108,28 @@ body {
 
 .education__university {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 10px;
   color: var(--red);
 }
 
 .education__department {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.71;
   margin-bottom: 10px;
   color: var(--primery-color);
+}
+
+.education__period {
+  line-height: 1.71;
+  margin-bottom: 10px;
+  color: #a8a8a8;
+}
+
+.education__item {
+  line-height: 1.71;
+  color: var(--grey);
 }
 
 .sidebar {
@@ -194,7 +206,7 @@ body {
 
 .work__organization {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.11;
   color: var(--red);
 }
@@ -212,5 +224,5 @@ body {
 
 .work__item {
   line-height: 1.71;
-  color: #595959;
+  color: var(--grey);
 }/*# sourceMappingURL=main.css.map */
