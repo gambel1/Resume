@@ -81,6 +81,10 @@ body {
   opacity: 0.5;
 }
 
+.address__link:hover {
+  color: rgb(117, 106, 196);
+}
+
 .address__link--current {
   text-decoration: none;
 }
